@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgmc746v047s2"]
+[gd_scene load_steps=3 format=3 uid="uid://dgmc746v047s2"]
 
 [ext_resource type="PackedScene" uid="uid://dulrjgbk2aw4t" path="res://scenes/player/player.tscn" id="1_fn51s"]
+[ext_resource type="PackedScene" uid="uid://s6gf3ie6ui0m" path="res://scenes/bed.tscn" id="2_2tj0r"]
 
 [node name="Level" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_fn51s")]
+
+[node name="Bed" parent="." instance=ExtResource("2_2tj0r")]
+position = Vector2(816, 437)
